@@ -2,8 +2,8 @@
 #define SHIFT_REGISTER_V1.1_H
 #include <Arduino.h>
 
-void _PinType_(uint8_t, uint8_t);
-void __PinType_(uint8_t , uint8_t);
+void _PinWrite_(uint8_t, uint8_t, uint8_t);
+void _PinType_(uint8_t , uint8_t);
 
 class SHIFT_REGISTER
 {
